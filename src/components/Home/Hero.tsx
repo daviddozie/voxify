@@ -32,23 +32,24 @@ export const Hero = () => {
                     provide personalized recommendations, and keep you <br /> seamlessly
                     connected to what matters most.
                 </p>
-                <div className="flex items-center gap-[9px] mx-auto w-full justify-center mt-6">
-                    <Button
-                        className="bg-[#0370EB] text-white font-bold py-4 px-6 roboto-mono rounded-[50px] shadow-none"
-                        style={{ boxShadow: "inset 0px 4px 4px 0px #A0C0FF" }}
-                    >
-                        Get Started
-                    </Button>
-                    <Button className="text-white bg-transparent border border-[#0370EB] rounded-[50px] py-4 px-6 roboto-mono">
-                        Explore Now
-                    </Button>
-                </div>
                 <div
-                    className="w-full h-[385px] bg-cover bg-center mt-8"
+                    className="w-full h-[600px] bg-cover bg-center mt-8"
                     style={{
                         backgroundImage: `url('https://s3-alpha-sig.figma.com/img/f36c/6edd/1318b6d55d2f2107d9f2dee8e6579d6c?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jkRx76eOuNZAj7QhYZ-yeEUG2kkvSM2Hn9-LJHfQAJd4aBMRYFEuE-kUhXC3wVeEL9DezqPP32-jaI1pv8KZc2I-9vUBCwJeDXBmCN0WWrfKrsi4BdIPFFBlTAKMERaHbU2xN5Jc-vmeDf7K8dIC4PKkal1IzIUg-GmGOBUKUCojg0ZDJRxmQVy1Tunuj9ZeF28hy59~RTJ2roosbZuoSMAau9xijRpmYXJEts0pEBcPUTi4Ut6Xd6bmAUlzR0UJAStVLsw-bB~UtmXm0hVgXWB~jULic~Bbo2O571pYCWPsaOdt1UhOggtccbIQz0LdLiye7Dqndsr2qit2T-v4sg__')`,
                     }}
-                ></div>
+                >
+                    <div className="flex items-center gap-[9px] mx-auto w-full justify-center mt-6">
+                        <Button
+                            className="bg-[#0370EB] text-white font-bold py-4 px-6 roboto-mono rounded-[50px] shadow-none"
+                            style={{ boxShadow: "inset 0px 4px 4px 0px #A0C0FF" }}
+                        >
+                            Get Started
+                        </Button>
+                        <Button className="text-white bg-transparent border border-[#0370EB] rounded-[50px] py-4 px-6 roboto-mono">
+                            Explore Now
+                        </Button>
+                    </div>
+                </div>
             </div>
         </>
     );
