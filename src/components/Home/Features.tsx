@@ -13,7 +13,7 @@ export const Features = () => {
 
     return (
         <>
-            <div className="mb-[60px]">
+            <div className="mb-[60px] px-[100px]">
                 <h2 className="text-[32px] font-bold text-white poppins text-center">Experience the Power of Seamless Interaction</h2>
                 <p className="text-sm font-normal text-center text-[#989898] my-4 roboto-mono">Discover how our AI Voice Assistant simplifies tasks, enhances productivity, and connects<br /> you to your world.</p>
                 <div className="flex justify-center">

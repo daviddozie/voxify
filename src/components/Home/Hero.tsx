@@ -9,7 +9,7 @@ export const Hero = () => {
     ];
 
     return (
-        <>
+        <div className="px-[100px]">
             <NavBar />
             <div className="relative mt-[100px] flex flex-col items-center text-center">
                 <div className="absolute -top-10 left-1/2 -translate-x-1/2 h-[250px] bg-blue-500 blur-[120px] opacity-30"></div>
@@ -51,6 +51,6 @@ export const Hero = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };

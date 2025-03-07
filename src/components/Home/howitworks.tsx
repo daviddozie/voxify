@@ -4,7 +4,7 @@ import Image from "next/image"
 export const HowIsWork = () => {
     return (
         <>
-            <div className="mt-[80px]">
+            <div className="mt-[80px] px-[100px]">
                 <div className="flex justify-center">
                     <Button className="bg-white/10 backdrop-blur-lg border-white/10 border p-[10px] text-sm font-normal roboto-mono rounded-[24px]">
                         Why Choose Voxify?

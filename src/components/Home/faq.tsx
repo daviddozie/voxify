@@ -17,7 +17,7 @@ export const FAQ = () => {
     };
 
     return (
-        <div className="mt-[60px]">
+        <div className="py-[60px] bg-[#040411] mt-[60px] px-[100px]">
             <div className="flex justify-center">
                 <Button className="bg-white/10 py-[10px] px-[15px] backdrop-blur-lg border-white/10 border text-sm font-normal roboto-mono rounded-[24px]">
                     FAQ
@@ -27,7 +27,7 @@ export const FAQ = () => {
                 Frequently Asked Questions
             </h2>
             <p className="text-sm font-normal text-center text-[#989898] roboto-mono">
-                Find answers to all your questions about Voxify and discover how our AI voice
+                Find answers to all your questions about Voxify and discover how our AI voice<br />
                 assistant can transform your daily routines.
             </p>
             <div className="flex justify-center mt-4">
