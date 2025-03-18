@@ -38,7 +38,7 @@ export const PricingCard = ({
             </div>
             <div className="poppins text-white my-4">
                 <span className="font-semibold text-[32px]">{price}</span>
-                <span className="font-[300] text-[12px]">/{duration}</span>
+                <span className="font-[300] text-[12px]">{duration}</span>
             </div>
             <p className="text-sm text-white poppins font-[300]">{info}</p>
             <Button
@@ -47,13 +47,15 @@ export const PricingCard = ({
             >
                 Upgrade Plan
             </Button>
-            <div className={`w-full h-[1px] mt-4 mb-6 ${lineStyle}`}></div>
+            <div className={`w-full h-[1px] mt-4 mb-8 ${lineStyle}`}></div>
             <ul className="poppins text-white text-[15px] font-[300]">
-                {benefits.length > 0 && <p className="mb-2">Everything in the Pro Plan, plus:</p>}
+                {benefits.length > 0 && <p className="mb-4">Everything in the Pro Plan, plus:</p>}
                 {benefits.map((benefit, index) => (
                     <li key={index} className="flex items-center gap-2 pb-4 mt-2 poppins text-sm">
-                        <div className="border-[1.5px] border-white w-[24px] h-[24px] flex justify-center items-center rounded-full">
-                            {checked}
+                        <div className="border-[1.5px] border-white flex justify-center items-center rounded-full">
+                            <span className="m-1">
+                                {checked}
+                            </span>
                         </div>
                         {benefit}
                     </li>

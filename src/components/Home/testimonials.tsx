@@ -51,8 +51,6 @@ export const Testimonials = () => {
         <p className="text-sm font-normal text-center text-[#989898] roboto-mono">
           Discover how Voxify transforms daily tasks into effortless moments.
         </p>
-
-        {/* Swiper Container */}
         <div className="relative max-w-3xl mx-auto">
           <Swiper
             modules={[Navigation, EffectCoverflow]}

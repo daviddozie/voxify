@@ -11,8 +11,8 @@ export const Pricing = () => {
         {
             planType: "Basic Plan",
             styleHidden: "hidden",
-            cardStyle: "",
-            price: billingCycle === "monthly" ? "$4.99/" : "$49.99/",
+            cardStyle: "border-white/10",
+            price: billingCycle === "monthly" ? "$14.99/" : "$49.99/",
             duration: billingCycle,
             info: "For individuals who want smart assistance for everyday tasks.",
             buttonStyle: "backdrop-blur-0 bg-white/10 shadow-[inset_0px_4px_4px_0px_rgba(0,0,0,0.25)]",
@@ -28,34 +28,35 @@ export const Pricing = () => {
         {
             planType: "Premium Plan",
             styleHidden: "",
-            cardStyle: "#0370EB",
-            price: billingCycle === "monthly" ? "$9.99/" : "$99.99/",
+            cardStyle: "border-[#0370EB]",
+            price: billingCycle === "monthly" ? "$14.99/" : "$99.99/",
             duration: billingCycle,
-            info: "For professionals who need advanced AI assistance.",
-            buttonStyle: "bg-[#FFD700] text-black",
-            lineStyle: "bg-[#FFD700]",
+            info: "Complete control and premium features for maximum efficiency.",
+            buttonStyle: "bg-[#0370EB] text-black",
+            lineStyle: "bg-[#0370EB]",
             benefits: [
-                "All features in Basic Plan.",
-                "Priority customer support.",
-                "Advanced AI-driven insights.",
-                "Multi-device synchronization.",
+                "AI-driven insights and recommendation",
+                "Unlimited integrations with apps and devices.",
+                "Secure data storage and backup.",
+                "Early access to new features and updates.",
+                "24/7 dedicated customer support."
             ],
             checked: <Check size={14} />
         },
         {
             planType: "Pro Plan",
             styleHidden: "hidden",
-            cardStyle: "border-[#FF5733]",
+            cardStyle: "border-white/10",
             price: billingCycle === "monthly" ? "$19.99/" : "$199.99/",
             duration: billingCycle,
-            info: "For businesses looking for enterprise-grade AI solutions.",
-            buttonStyle: "bg-[#FF5733] text-white",
-            lineStyle: "bg-[#FF5733]",
+            info: "Enhanced features for power users who need a productivity boost.",
+            buttonStyle: "backdrop-blur-0 bg-white/10 shadow-[inset_0px_4px_4px_0px_rgba(0,0,0,0.25)]",
+            lineStyle: "bg-[#313B48]",
             benefits: [
-                "All features in Pro Plan.",
-                "Dedicated account manager.",
-                "Custom AI integrations.",
-                "24/7 priority support.",
+                "Advanced personalization and task prioritization.",
+                "Integration with smart home devices.",
+                "Real-time translations for multiple languages.",
+                "Priority customer support.",
             ],
             checked: <Check size={14} />
         }
@@ -64,7 +65,7 @@ export const Pricing = () => {
     return (
         <div className="bg-[#000001] px-[100px] py-[60px] relative">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 h-[250px] bg-blue-500 blur-[120px] opacity-30"></div>
-            <div className="absolute top-[40%] inset-0 w-[30%] h-[60%] bg-blue-700 blur-[90px] opacity-30 mx-auto"></div>
+            <div className="absolute top-[20%] inset-0 w-[50%] h-[68%] bg-blue-800 blur-[90px] opacity-25 mx-auto"></div>
             <h2 className="text-[32px] font-bold text-white poppins my-3 text-center">
                 Choose Your Voxify Pricing Plan
             </h2>
@@ -92,7 +93,7 @@ export const Pricing = () => {
                     </Button>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center mt-8">
+            <div className="flex gap-6 mt-14 mb-[50px] justify-between">
                 {priceCard.map((pricing, index) => (
                     <PricingCard
                         key={index}
