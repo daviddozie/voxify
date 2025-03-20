@@ -4,9 +4,10 @@ import { Button } from "../ui/button"
 export const Subcribe = () => {
     return (
         <>
-            <div className="mx-[100px] pt-[120px] relative pb-[100px]">
+            <div className="mx-[100px] pt-[120px] relative pb-[180px]">
                 <h1 className="font-semibold text-white poppins text-[36px] text-center">Subscribe to Voxify today, you<br /> don’t want to miss out </h1>
                 <p className="text-[#989898] roboto-mono text-sm text-center mt-4 mb-6">Unlock the power of seamless voice interaction and let Voxify simplify your everyday tasks<br />—subscribe now to experience the future of AI assistance</p>
+                <div className="flex justify-center">
                 <div className="w-[600px] gap-2 flex mx-auto z-10 absolute">
                     <Input
                         placeholder="Enter your Email"
@@ -19,7 +20,8 @@ export const Subcribe = () => {
                         Subscribe Now
                     </Button>
                 </div>
-                <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-[#001f3f] to-transparent pointer-events-none rounded-[20px]"></div>
+                </div>
+                <div className="absolute bottom-0 left-0 w-full h-60 bg-gradient-to-t from-[#001f3f] to-transparent pointer-events-none rounded-[20px]"></div>
             </div>
             
         </>
