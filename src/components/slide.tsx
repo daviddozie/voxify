@@ -58,15 +58,15 @@ export const CardSlider = () => {
             <motion.div
               key={index}
               initial={{ opacity: isActive ? 1 : 0.6, scale: isActive ? 1 : 1.05 }}
-              animate={{ opacity: isActive ? 1 : 0.5, scale: isActive ? 1 : 1.05 }}
+              animate={{ opacity: isActive ? 1 : 0.5, scaleX: isActive ? 1.05 : 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
               className={`absolute top-0 left-1/2 -translate-x-1/2 mx-auto p-8 text-white bg-blue-500 rounded-xl shadow-2xl transition-all ${
-                isActive ? "z-20 w-[100%]" : isNext ? "z-10 w-[110%] opacity-70" : "z-0 hidden"
+                isActive ? "z-20 w-[100%]" : isNext ? "z-10 w-[106%] opacity-70" : "z-0 hidden"
               }`}
               style={{
                 transform: isNext ? "translateY(10px)" : "translateY(0px)",
-                minHeight: "260px",
+                minHeight: isActive ? "260px" : "260px",
               }}
             >
               <p className="text-xl leading-relaxed">{testimonial.text}</p>
