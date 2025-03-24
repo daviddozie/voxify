@@ -1,6 +1,10 @@
 import { Button } from "../ui/button"
 import MicIcon from "@/asset/svg/mic.svg"
 import Image from "next/image"
+import Record from "@/asset/gif/record.gif"
+import Loading from "@/asset/gif/loading.gif"
+import Voice from "@/asset/gif/voice.gif"
+import Audio from "@/asset/gif/audio.gif"
 
 export const Features = () => {
 
@@ -32,7 +36,7 @@ export const Features = () => {
 
                             className="w-full h-[250px] bg-cover bg-center relative"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/c253/94d4/0525c0ab4086a6665aee84f0a4daa999?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZATd8xEXZbygwTNAm1zQ9unVoOUOdARDWGPbOrBAi7kpiCl5EXfrtndyHFRr4bjS23bsIoGcYusNutZXGP52hvI3Yl-n9LFHN4JFg7dB-PJMr1Ve0Bc4L~IaMOYLKIOqB4MWioklfNBApV3TPO2zuWqyHCrzAGtKxxL8Ad3G6sxbfNWZEqJfhGFbbCeCk-6PcJVzb4UiGl2nNwUjlgMMKiTmwRdBpQnXft9c7nMcaXn2d811EEGu5qDLsQMukPsoWzmYxT9FlpIF1gxXhYAy36Avp~fhh4tYHP4y4uVWrZgxZ0jpsoPFvVxJD0u3IZ7PbAcG~od23XdC2m8vkRw1PA__')`,
+                                backgroundImage: `url(${Record})`,
                             }}
                         >
                             <div className="h-full justify-center items-center">
@@ -55,7 +59,7 @@ export const Features = () => {
 
                             className="w-full h-[248px] bg-cover bg-center relative"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/d51e/2e7c/097b633fb5fa38053409963d754f46c8?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kzyqGyAxvG5w2KeB9uocUQ9qE42wRTkVuX30T23iGyZ9kStN3Y2g6TbzhsZQjSBRVjPN7ov9u7YodsGY5yP9ZIeeDuJRNAt5ATJqrnLQFFz2g4fwHRUVou0D2mqrotOroNDqtXopDiipILX49bG0bY7kW6INi78soG3ezen4PKMpfLWFVnCJS91tJS0QzkCn-3XLY4NJv5L5XIHbqhtr~8xXgM5tfOaqOEv7PrGzh3X~BV2WUrzCh35kdpMuc2SKwYvEv3jLcBNbyM43E0m10csXUYcUIG0CC8aPKc9A5VmwHPvi7uMVp~cQHCpwwegxTvUeuNs2x11iSf0UxBtaWg__')`
+                                backgroundImage: `url(${Loading})`
                             }}
                         >
                         </div>
@@ -69,7 +73,7 @@ export const Features = () => {
 
                             className="w-full h-[248px] bg-cover bg-center relative"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/d63e/feac/3a57dba45eb9bad71b99942c81316636?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HFWTktmzkb07ocRYKfpjZrRIBhoxCuS~YNsz34cdg3NfOgesribWkegj2hqbULGRtkN4ny72qk0dQvioOWtmZ0x3fHB4IkSyjmnGcY3oA7FKYFmSWIdAmlVN1HUyZlBwaJRAGgHiGLRd5Iukx6yS7j2th~6-t5TVvBkCqSZpAU2L1kpdcxYu6Mja5c4tiFqp7PrnSIvFT-N4H8wodQuUB2otgfW6p~3fiibsrGT29MrimzrwfCvxitO3s2I6WHZNFGneb5aCEwBJx1OxuSOLddw5eQikTrZmDyYx5GjHcoc2Ogc~L-9CTRPNzCFigj6QD9kZ-mLMmaxPrkpWaUj-UQ__')`
+                                backgroundImage: `url(${Voice})`
                             }}
                         >
                         </div>
@@ -81,7 +85,7 @@ export const Features = () => {
 
                             className="w-full h-[265px] bg-cover bg-center relative"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/7098/98e5/4fefb2cdc6c653b9f565b0918d7f7362?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ssWQCFShNMPglu3-o0dcQOrwVLGDtyEkTq4xeDtSodWfniNLkb1G~f85krXRRPNycXg4m3W5k7T2YV5Xq~h9OkOuMYL~eFiE~XbdXLSWXwGgNfOKJKU9-EZHAP9Uwlnjo7ESf5Lc2JunzLuYplD810FKzHECg8dOeJeb-gtPLu4du2Fu3d79BfnH1LhOgblUZ-wRuPrWgNGvV7mc5EQjfl~sF2Lp-dc232GABgJgrZj2xE8revmrlgw-Mj38ui7m0KKXgRIsJY4~yEzBo-hDE-zNfxk6WrlrNDO4Gne0n5bRqd-rLVqU1Mpm4EsafHdBTcriYajtVtwXfohHzSefSQ__')`,
+                                backgroundImage: `url(${Audio})`,
                             }}
                         >
                         </div>

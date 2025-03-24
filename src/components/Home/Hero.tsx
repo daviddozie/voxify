@@ -35,7 +35,10 @@ export const Hero = () => {
                 <div
                     className="w-full h-[600px] bg-cover bg-center mt-8"
                     style={{
-                        backgroundImage: `url('https://s3-alpha-sig.figma.com/img/f36c/6edd/1318b6d55d2f2107d9f2dee8e6579d6c?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jkRx76eOuNZAj7QhYZ-yeEUG2kkvSM2Hn9-LJHfQAJd4aBMRYFEuE-kUhXC3wVeEL9DezqPP32-jaI1pv8KZc2I-9vUBCwJeDXBmCN0WWrfKrsi4BdIPFFBlTAKMERaHbU2xN5Jc-vmeDf7K8dIC4PKkal1IzIUg-GmGOBUKUCojg0ZDJRxmQVy1Tunuj9ZeF28hy59~RTJ2roosbZuoSMAau9xijRpmYXJEts0pEBcPUTi4Ut6Xd6bmAUlzR0UJAStVLsw-bB~UtmXm0hVgXWB~jULic~Bbo2O571pYCWPsaOdt1UhOggtccbIQz0LdLiye7Dqndsr2qit2T-v4sg__')`,
+                        backgroundImage: "url('/hero.gif')",
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
                     }}
                 >
                     <div className="flex items-center gap-[9px] mx-auto w-full justify-center mt-6">

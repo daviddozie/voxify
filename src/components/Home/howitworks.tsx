@@ -1,5 +1,8 @@
 import { Button } from "../ui/button"
 import Image from "next/image"
+import Crystal from "@/asset/gif/crystal.gif"
+import Network from "@/asset/gif/network.gif"
+import Global from "../../../public/global.png"
 
 export const HowIsWork = () => {
     return (
@@ -18,7 +21,7 @@ export const HowIsWork = () => {
 
                             className="h-[248px] bg-cover bg-center relative rounded-sm"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/29b1/46ab/c2891e14a77d7e86ce417e558fe043a8?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iX9d12q9n0p~3GMftrBX0s2L7xsdYKaTOrnvyAt0nq7bWjmkvQIV5JSCMmfJRlvbMY9vHu3Ou7I~z-eAsE2dVfWCwPp4b31cI3Ogm~Y3wtaArCplL4zo5CozPIO7vvFzTL1UJuvlqAK7ZPLSSHAcI3~3OsqUFqZ8z~RoD9Dk8YEgSQOm7TCxAqXBpieOQQfyBKIvuhn0Ss8gnB5Pe0xx1kxawhNWRqSUUvmIRR74f4ycY3JgDfVUhEiiFF41ISKYCMxmYCyDdw9gvynbPF6vELjls79SpIdhPUM8YzxaaWhQEGXCcYUwbCyogu62lSnSZEpHDiD5ARYxFFn46FnyQQ__')`
+                                backgroundImage: `url(${Crystal})`
                             }}
                         >
                         </div>
@@ -30,7 +33,7 @@ export const HowIsWork = () => {
 
                             className="h-[248px] bg-cover bg-center relative rounded-sm"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/9aec/d1ef/5efc563c0cd149f85e6896e4b432bcf9?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QIs9qEeSMRTWTckBaixci9eNP5PNg0kw~9T6TumGrkikqJ3DIZS7n5YSnj07v-nkus5gZAAenSchKKH~TrnMSG0vBPVJYX~3HdO~6bfk2XYgamG-gQ4R9FsLvfnkAwux9ixByA7gfywtPnwduCVryMbb-bRB1EDNCTgPfUiNuRm~q~S933KLi1oPGqguyEdTqcsvNjiW4Su7rgIiae9aaGv~ZRwyjEoMuDTvu7RoecZtIznvojdACnJK2OvtTVSYm0BJkeBASJRVIHD8QRi5vw4ofIWglFXFK0oPa6CJzfyDn2UX65Qh5KSQAFaMeoNc5yBJhMDRIv5YIawnlMRiog__')`
+                                backgroundImage: `url(${Network})`
                             }}
                         >
                             <div className="flex items-center h-full">
@@ -45,7 +48,7 @@ export const HowIsWork = () => {
 
                             className="h-[248px] bg-cover bg-center relative rounded-sm"
                             style={{
-                                backgroundImage: `url('https://s3-alpha-sig.figma.com/img/53f3/37e1/22057a5fc1f87390235fdd42d94ceed7?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qlvebGT~gJACtpvUKhI0R0zC8owSLmpS2wHPYDUb-YKAs57Y6-WXjrcwo5K0Zv7QpSsVOHgsibfvX-qDQdJe0htJq5q2m~f9usAizV~xjeLE29CEThov7SW5q6-U1sDW7m3SXWMC94e105MhEXWR0aq1oQN93J~a3puntrfyHiFAAxo1W~nXJtRl4G4yXtR3OEZl64a4gOwMLEfD9LMRalmK26Xyx1SFxRO91mJO-~4oqUfMKPh7gMd4qvi0htbMM3q8FhWJdTkGk7M3vxsu2orikbcljI-kFMx2C53azLuIdLt3RZqRAVr9TYO74FlhpVADgdMc8TxtvK9GR-AiuQ__')`
+                                backgroundImage: `url(${Global})`
                             }}
                         >
                             <div className="flex items-center h-full">
